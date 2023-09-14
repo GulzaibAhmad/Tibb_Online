@@ -32,7 +32,7 @@ function NavBar() {
       <div className="nav-container">
       
         <NavLink exact="true" to="/" className="nav-logo" onClick={closeMobileMenu}>
-          <img src={p1} alt="" />
+          <img src={p1} alt="" className="nav_img"/>
         </NavLink>
 
         <div className={`nav-icon ${click ? 'active' : ''}`} onClick={handleClick}>

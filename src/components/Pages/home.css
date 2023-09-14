@@ -1,0 +1,16 @@
+.hero_img {
+    height: 70vh;
+    width: 100vw;
+}
+
+@media screen and (min-width: 501px) and (max-width: 840px) {
+    .hero_img{
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .hero_img{
+        height: 30vh;
+    }
+}
