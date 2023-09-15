@@ -4,7 +4,7 @@ import './home.css';
 
 export const Home = () => {
   return (
-    <div>
+    <div className="hero_container">
       <div className="hero">
         <img src={p1} alt="" className="hero_img" />
       </div>
