@@ -36,8 +36,8 @@
 }
 
 .nav-item {
-  margin-right: 20px;
-  font-size: 1.2em;
+  margin-right: 30px;
+  font-size: 1.3em;
 }
 
 .nav-link {
@@ -65,15 +65,15 @@
 }
 
 .nav-item:nth-child(2) {
-  margin-right: 32px;
+  margin-right: 40px;
 }
 
 .nav-item:nth-child(5) {
-    margin-right: 32px;
+    margin-right: 40px;
   }
 
 .nav-item:nth-child(6) {
-    margin-right: 32px;
+    margin-right: 40px;
   }
 
 .nav_img{
@@ -115,7 +115,7 @@
   background-color: #fca311;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1060px) {
   .nav-icon {
     display: block;
     position: absolute;
