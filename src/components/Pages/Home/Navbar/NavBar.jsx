@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai';  
 import { IoMdArrowDropdown } from 'react-icons/io';
-import p1 from '../assets/logo.png';
+import p1 from '../../../../assets/logo.png';
 import "./NavBar.css";
 
-function NavBar() {
+function  NavBar() {
 
   const [click, setClick] = useState(false);
   
