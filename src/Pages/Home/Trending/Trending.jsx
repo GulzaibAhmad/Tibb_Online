@@ -34,7 +34,7 @@ const products = [
   {
     id: 5,
     image: Image5,
-    title: 'Sand fish ( Raig Mahi) ریگ ماہی',
+    title: 'Sand fish ریگ ماہی',
     price: '$39.99',
   },
   {
