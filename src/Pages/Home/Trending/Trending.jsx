@@ -1,11 +1,10 @@
-import React from 'react';
-import './Trending.css'; // Make sure to have the corresponding CSS file
 import Image1 from '../../../assets/item1.jpg';
 import Image2 from '../../../assets/item2.png';
 import Image3 from '../../../assets/item3.png';
 import Image4 from '../../../assets/item4.png';
 import Image5 from '../../../assets/item5.png';
 import Image6 from '../../../assets/item6.png';
+import './trending.css'
 
 const products = [
   {
