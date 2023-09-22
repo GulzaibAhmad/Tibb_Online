@@ -9,7 +9,6 @@ const Home = () => {
   return (
     <div>
       <ImageCarousel images={images} />
-      {/* Your other content goes here */}
     </div>
   );
 };
