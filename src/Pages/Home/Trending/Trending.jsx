@@ -12,7 +12,7 @@ const products = [
     id: 1,
     image: Image1,
     title: 'Akarkara عقر قرحا',
-    price: '$19.99',
+    price: '$19.9',
   },
   {
     id: 2,
