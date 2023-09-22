@@ -198,7 +198,7 @@
 
   .nav-menu {
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: -100%;
     flex-direction: column;
     background-color: rgb(4, 99, 47);
