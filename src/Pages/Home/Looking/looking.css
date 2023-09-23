@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Noto+Nastaliq+Urdu&display=swap');
+
+
+/* looking.css */
+.looking-container {
+    text-align: center;
+    background-color: rgb(247,246,242);
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Skranji', cursive;
+    color: rgb(61, 60, 60);
+    padding: 10px;
+    width: max-content;
+  }
+
+  .heading_span{
+    color: rgb(5, 112, 53);
+  }
+
+  .title_span{
+    font-family: 'Noto Nastaliq Urdu', serif;
+  }
+  
+  /* Default grid for big screens (3x3) */
+  .looking-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 110px;
+  }
+  
+  .looking {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-top: 0;
+    padding: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .looking:hover {
+    transform: scale(1.05);
+  }
+  
+  .looking img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .looking h3 {
+    font-size: 18px;
+  }
+  
+  .looking p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  @media screen and (max-width: 1024px) {
+
+    .looking-list {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      padding: 0 50px;
+    }
+
+    .looking-container {
+      margin: 3px 8px;
+      padding: 15px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+
+    .looking-container {
+      margin: 2px 5px;
+      padding: 10px;
+    }
+
+    .looking-list {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
+    }
+    
+    .looking {
+      border-radius: 3px;
+      margin-top: 0;
+      padding: 8px;
+    }
+    
+    .looking img {
+      max-width: 50%;
+      height: 50%;
+    }
+
+    h2{
+      font-size: 20px;
+      margin-bottom: 8px;
+      padding: 5px;
+    }
+  }
+  
