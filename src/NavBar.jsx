@@ -59,7 +59,7 @@ function  NavBar() {
                 onMouseEnter={() => handleDropdown('herbs')}
                 onMouseLeave={() => setDropdowns({ ...dropdowns, herbs: false })}
               >
-                Herbs
+                Articles
                 <IoMdArrowDropdown className={`dropdown_icon ${dropdowns['herbs'] ? 'active' : ''}`} />
                 {dropdowns['herbs'] && (
                   <div className="nav-dropdown">
@@ -69,7 +69,7 @@ function  NavBar() {
                       className="nav-dropdown-link"
                       onClick={closeMobileMenu}
                     >
-                      Fruits
+                      Herbs
                     </NavLink>
                     <NavLink
                       exact="true"
@@ -77,7 +77,7 @@ function  NavBar() {
                       className="nav-dropdown-link"
                       onClick={closeMobileMenu}
                     >
-                      Plants
+                      Nuskha Jaat
                     </NavLink>
                     <NavLink
                       exact="true"
@@ -85,7 +85,7 @@ function  NavBar() {
                       className="nav-dropdown-link"
                       onClick={closeMobileMenu}
                     >
-                      Roots
+                      Herbal Medicine
                     </NavLink>
                     <NavLink
                       exact="true"
@@ -93,31 +93,11 @@ function  NavBar() {
                       className="nav-dropdown-link"
                       onClick={closeMobileMenu}
                     >
-                      Vegetables
+                      General Health
                     </NavLink>
                   </div>
                 )}
               </div>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact="true"
-                to="/about"
-                className="nav-link"
-                onClick={closeMobileMenu}
-              >
-                Nuskha Jaat
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact="true"
-                to="/about"
-                className="nav-link"
-                onClick={closeMobileMenu}
-              >
-                Herbal Medicine
-              </NavLink>
             </li>
             <li className="nav-item">
               <div
@@ -165,7 +145,7 @@ function  NavBar() {
                 onMouseEnter={() => handleDropdown('medicineCategories')}
                 onMouseLeave={() => setDropdowns({ ...dropdowns, medicineCategories: false })}
               >
-                Medicine Categories
+                Consumer Products
                 <IoMdArrowDropdown className={`dropdown_icon ${dropdowns['medicineCategories'] ? 'active' : ''}`} />
                 {dropdowns['medicineCategories'] && (
                   <div className="nav-dropdown">
@@ -175,7 +155,7 @@ function  NavBar() {
                       className="nav-dropdown-link"
                       onClick={closeMobileMenu}
                     >
-                      Brain Medicine
+                      Pansar Products
                     </NavLink>
                     <NavLink
                       exact="true"
@@ -183,7 +163,7 @@ function  NavBar() {
                       className="nav-dropdown-link"
                       onClick={closeMobileMenu}
                     >
-                      Heart Medicine
+                      Herbal Medicine
                     </NavLink>
                     <NavLink
                       exact="true"
@@ -191,7 +171,7 @@ function  NavBar() {
                       className="nav-dropdown-link"
                       onClick={closeMobileMenu}
                     >
-                      Stomach Medicine
+                      Nuskha Jaat
                     </NavLink>
                   </div>
                 )}

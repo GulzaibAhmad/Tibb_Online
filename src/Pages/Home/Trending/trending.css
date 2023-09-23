@@ -1,23 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Noto+Nastaliq+Urdu&display=swap');
+
+
 /* Trending.css */
 .trending-container {
     text-align: center;
-    margin: 5px 10px;
-    background-color: #f5f5f5;
+    background-color: rgb(247,246,242);
     padding: 20px;
   }
   
   h2 {
     font-size: 24px;
     margin-bottom: 20px;
-    background-color: dodgerblue;
-    color: #fff;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Skranji', cursive;
+    color: rgb(61, 60, 60);
     padding: 10px;
+    width: max-content;
+  }
+
+  .heading_span{
+    color: rgb(5, 112, 53);
+  }
+
+  .title_span{
+    font-family: 'Noto Nastaliq Urdu', serif;
   }
   
   /* Default grid for big screens (3x3) */
   .product-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -32,6 +45,8 @@
     padding: 15px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out;
+    height: 100%;
+    width: 100%;
   }
   
   .product:hover {
@@ -53,10 +68,10 @@
     color: #333;
   }
   
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1024px) {
 
     .product-list {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 10px;
     }
 
@@ -87,6 +102,10 @@
     .product img {
       max-width: 50%;
       height: 50%;
+    }
+
+    .product p {
+      margin-bottom: 20px;
     }
 
     h2{

@@ -1,3 +1,8 @@
+.five{
+  position:relative;
+  height: auto;
+}
+
 .carousel-container {
   position: relative;
   max-width: 100%;

@@ -13,12 +13,14 @@ const ImageCarousel = ({ images }) => {
   }, [images.length]);
 
   return (
+    <div className='five'>
     <div className="carousel-container">
       <img
         className="carousel-image"
         src={images[currentImageIndex]}
         alt={`Image ${currentImageIndex}`}
       />
+    </div>
     </div>
   );
 };
