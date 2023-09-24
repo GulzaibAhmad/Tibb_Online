@@ -24,6 +24,7 @@
 
   .title_span{
     font-family: 'Noto Nastaliq Urdu', serif;
+    font-size: 18px;
   }
   
   /* Default grid for big screens (3x3) */
@@ -59,13 +60,19 @@
   }
   
   .product h3 {
-    font-size: 18px;
+    font-size: 20px;
     margin: 10px 0;
   }
   
   .product p {
     font-size: 16px;
     color: #333;
+  }
+
+  @media screen and (min-width: 1025px) {
+    .product[data-id="6"] {
+      display: none;
+    }
   }
   
   @media screen and (max-width: 1024px) {

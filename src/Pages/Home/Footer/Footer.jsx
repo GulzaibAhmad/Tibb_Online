@@ -10,17 +10,56 @@ const Footer = () => {
   return (
     <footer className='footer'>
 
-      <NavLink exact="true" to="/Home" className='footer__logo'>
+      <NavLink exact="true" to="/" className='footer__logo'>
           <img src={Logo} alt="" className="nav_img"/>
         </NavLink>
 
       <ul className='links'>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact Us</a></li>
+        <li>
+        <NavLink
+                exact="true"
+                to="/"
+                className="nav-link"
+            >
+                Home
+            </NavLink>
+        </li>
+        <li>
+        <NavLink
+                exact="true"
+                to="/"
+                className="nav-link"
+            >
+                Articles
+            </NavLink>
+        </li>
+        <li>
+            <NavLink
+                exact="true"
+                to="/contact"
+                className="nav-link"
+            >
+                Women's Health
+            </NavLink>
+        </li>
+        <li>
+            <NavLink
+                exact="true"
+                to="/contact"
+                className="nav-link"
+            >
+                Men's Health
+            </NavLink>
+        </li>
+        <li>
+            <NavLink
+                exact="true"
+                to="/contact"
+                className="nav-link"
+            >
+                Contact Us
+            </NavLink>
+        </li>
       </ul>
 
       <div className="footer__socials">

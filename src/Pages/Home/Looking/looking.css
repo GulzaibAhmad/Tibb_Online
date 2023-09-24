@@ -58,12 +58,19 @@
   }
   
   .looking h3 {
+    padding-top: 4%;
     font-size: 18px;
   }
   
   .looking p {
     font-size: 16px;
     color: #333;
+  }
+
+  @media screen and (min-width: 1025px) {
+    .looking [data-id='6'] {
+      display: none;
+    }
   }
   
   @media screen and (max-width: 1024px) {

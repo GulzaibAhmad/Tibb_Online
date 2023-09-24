@@ -1,9 +1,11 @@
+import React from 'react';
 import Image1 from '../../../assets/item1.jpg';
 import Image2 from '../../../assets/item2.png';
 import Image3 from '../../../assets/item3.png';
 import Image4 from '../../../assets/item4.png';
 import Image5 from '../../../assets/item5.png';
-import './trending.css'
+import Image6 from '../../../assets/item6.png';
+import './trending.css';
 
 const products = [
   {
@@ -41,6 +43,13 @@ const products = [
     urdu: 'ریگ ماہی',
     price: 'Rs. 1500 (10g)',
   },
+  {
+    id: 6,
+    image: Image6,
+    title: 'Safed Musli',
+    urdu: 'موصلی سفید',
+    price: 'Rs. 1000 (50g)',
+  },
 ];
 
 const Trending = () => {
@@ -49,9 +58,10 @@ const Trending = () => {
       <h2>Top <span className='heading_span'>Trending</span> Products</h2>
       <div className="product-list">
         {products.map((product) => (
-          <div className="product" key={product.id}>
+          <div className="product" key={product.id} data-id={product.id}>
             <img src={product.image} alt={product.title} />
-            <h3>{product.title} <span className='title_span'>{product.urdu}</span></h3>
+            <h3>{product.title}</h3>
+            <h3><span className='title_span'>{product.urdu}</span></h3>
             <p>{product.price}</p>
           </div>
         ))}
