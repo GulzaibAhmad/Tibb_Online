@@ -46,7 +46,7 @@ const Trending = () => {
       <div className="looking-list">
         {lookings.map((looking) => (
           <div className="looking" key={looking.id} data-id={looking.id}>
-            <img src={looking.image} alt={looking.title} />
+          <img src={looking.image} alt={looking.title} />
             <h3>{looking.title}</h3>
           </div>
         ))}

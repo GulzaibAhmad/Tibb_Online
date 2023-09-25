@@ -68,7 +68,7 @@
   }
 
   @media screen and (min-width: 1025px) {
-    .looking [data-id='6'] {
+    .looking[data-id="6"] {
       display: none;
     }
   }
