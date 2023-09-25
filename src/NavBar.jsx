@@ -65,7 +65,7 @@ function  NavBar() {
                   <div className="nav-dropdown">
                     <NavLink
                       exact="true"
-                      to="/blog/post1"
+                      to="/herbs"
                       className="nav-dropdown-link"
                       onClick={closeMobileMenu}
                     >
@@ -73,7 +73,7 @@ function  NavBar() {
                     </NavLink>
                     <NavLink
                       exact="true"
-                      to="/blog/post2"
+                      to="/herbs"
                       className="nav-dropdown-link"
                       onClick={closeMobileMenu}
                     >
@@ -81,7 +81,7 @@ function  NavBar() {
                     </NavLink>
                     <NavLink
                       exact="true"
-                      to="/blog/post3"
+                      to="/herbs"
                       className="nav-dropdown-link"
                       onClick={closeMobileMenu}
                     >
@@ -89,7 +89,7 @@ function  NavBar() {
                     </NavLink>
                     <NavLink
                       exact="true"
-                      to="/blog/post4"
+                      to="/herbs"
                       className="nav-dropdown-link"
                       onClick={closeMobileMenu}
                     >
@@ -112,7 +112,7 @@ function  NavBar() {
                   <div className="nav-dropdown">
                     <NavLink
                       exact="true"
-                      to="/blog/post5"
+                      to="/herbs"
                       className="nav-dropdown-link"
                       onClick={closeMobileMenu}
                     >
@@ -120,7 +120,7 @@ function  NavBar() {
                     </NavLink>
                     <NavLink
                       exact="true"
-                      to="/blog/post6"
+                      to="/herbs"
                       className="nav-dropdown-link"
                       onClick={closeMobileMenu}
                     >
@@ -128,7 +128,7 @@ function  NavBar() {
                     </NavLink>
                     <NavLink
                       exact="true"
-                      to="/blog/post7"
+                      to="/herbs"
                       className="nav-dropdown-link"
                       onClick={closeMobileMenu}
                     >
@@ -151,7 +151,7 @@ function  NavBar() {
                   <div className="nav-dropdown">
                     <NavLink
                       exact="true"
-                      to="/blog/post8"
+                      to="/herbs"
                       className="nav-dropdown-link"
                       onClick={closeMobileMenu}
                     >
@@ -159,7 +159,7 @@ function  NavBar() {
                     </NavLink>
                     <NavLink
                       exact="true"
-                      to="/blog/post9"
+                      to="/herbs"
                       className="nav-dropdown-link"
                       onClick={closeMobileMenu}
                     >
@@ -167,7 +167,7 @@ function  NavBar() {
                     </NavLink>
                     <NavLink
                       exact="true"
-                      to="/blog/post10"
+                      to="/herbs"
                       className="nav-dropdown-link"
                       onClick={closeMobileMenu}
                     >

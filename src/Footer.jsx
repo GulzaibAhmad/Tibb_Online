@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'; // Import NavLink
 import {FaFacebookF} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {IoLogoTwitter} from 'react-icons/io'
-import Logo from '../../../assets/logo.png'
+import Logo from '../src/assets/logo.png'
 
 const Footer = () => {
   return (

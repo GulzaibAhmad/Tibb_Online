@@ -6,7 +6,7 @@
 
 .navbar {
   background-color: rgb(4, 99, 47);
-  height: 80px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@
 
 .nav-item {
   margin-right: 30px;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .nav-link {
@@ -77,8 +77,8 @@
 
 .nav_img {
   margin-top: 5%;
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
 }
 
 .dropdown_icon {
