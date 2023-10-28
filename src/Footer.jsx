@@ -1,9 +1,8 @@
-import React from 'react'
 import './footer.css'
 import { NavLink } from 'react-router-dom'; // Import NavLink
 import {FaFacebookF} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
-import {IoLogoTwitter} from 'react-icons/io'
+// import {IoLogoTwitter} from 'react-icons/io'
 import Logo from '../src/assets/logo.png'
 
 const Footer = () => {
@@ -39,7 +38,7 @@ const Footer = () => {
                 to="/contact"
                 className="nav-link"
             >
-                Women's Health
+                Women Health
             </NavLink>
         </li>
         <li>
@@ -48,7 +47,7 @@ const Footer = () => {
                 to="/contact"
                 className="nav-link"
             >
-                Men's Health
+                Men Health
             </NavLink>
         </li>
         <li>
@@ -64,8 +63,8 @@ const Footer = () => {
 
       <div className="footer__socials">
         <a href="https://www.facebook.com/people/Gul-Zaib/pfbid022wavkqPfco43q5vK3jNqbEEon2Ty5wHFRRPtJEFhEuDzWQgJ3tG7D5Wci1eR4XFfl/" rel="noreferrer" target='_blank'><FaFacebookF/></a>
-        <a href="https://www.instagram.com/zaibahmadofficial/" rel="noreferrer" target='_blank'><FiInstagram/></a>
-        <a href="https://twitter.com/zaibahmad_" rel="noreferrer" target='_blank'><IoLogoTwitter/></a>
+        <a href="https://www.instagram.com/tibbonlineofficial/" rel="noreferrer" target='_blank'><FiInstagram/></a>
+        {/* <a href="" rel="noreferrer" target='_blank'><IoLogoTwitter/></a> */}
       </div>
 
       <div className="footer__copyright">

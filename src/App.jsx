@@ -1,17 +1,17 @@
 import { BrowserRouter as Router,  Route, Routes } from "react-router-dom";
-import  Home  from "./Pages/Home/Home";
-import  About  from "./Pages/About";
-import  Herbs  from "./Pages/Articles/Herbs";
-import  NuskhaJaat from "./Pages/Articles/NuskhaJaat";
-import  HerbalMedicine  from "./Pages/Articles/HerbalMedicine";
-import  GeneralHealth  from "./Pages/Articles/GeneralHealth";
-import  Male  from "./Pages/Articles/Male";
-import  Female  from "./Pages/Articles/Female";
-import  Kids  from "./Pages/Articles/Kids";
-import  Pansar  from "./Pages/Products/Pansar";
-import  HerbalProducts  from "./Pages/Products/HerbalMedicine";
-import  NuskhaPorducts  from "./Pages/Products/NuskhaJaat";
-import  Contact  from "./Pages/Contact";
+import Home from "./Pages/Home/Home";
+import About from "./Pages/About";
+import Herbs from "./Pages/Articles/Herbs";
+import NuskhaJaat from "./Pages/Articles/NuskhaJaat";
+import HerbalMedicine from "./Pages/Articles/HerbalMedicine";
+import GeneralHealth from "./Pages/Articles/GeneralHealth";
+import Male from "./Pages/Articles/Male";
+import Female from "./Pages/Articles/Female";
+import Kids from "./Pages/Articles/Kids";
+import Pansar from "./Pages/Products/Pansar";
+import HerbalProducts from "./Pages/Products/HerbalMedicine";
+import NuskhaPorducts from "./Pages/Products/NuskhaJaat";
+import Contact from "./Pages/Contact";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 
@@ -32,6 +32,9 @@ function App() {
             <Route path="/female" element={<Female />} />
             <Route path="/kids" element={<Kids />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/Pansar" element={<Pansar />} />
+            <Route path="/HerbalProducts" element={<HerbalProducts />} />
+            <Route path="/NuskhaPorducts" element={<NuskhaPorducts />} />
           </Routes>
         </div>
         <Footer/>

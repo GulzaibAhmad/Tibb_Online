@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom"; // Import NavLink
 import Image1 from "../../../assets/Articles.png";
 import Image2 from "../../../assets/Products.png";
@@ -51,7 +50,7 @@ const Trending = () => {
   return (
     <div className="looking-container">
       <h2>
-        I'm <span className="heading_span">Looking</span> for
+        I am <span className="heading_span">Looking</span> for
       </h2>
       <div className="looking-list">
         {lookings.map((looking) => (
